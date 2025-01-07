@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFINIT 2K25</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <script src="formhandlers/codethon.js"></script>
+  <script src="formhandlers/codecraft.js"></script>
+  <script src="formhandlers/techxpo.js"></script>
+  <script src="formhandlers/bgmi.js"></script>
+  <script src="formhandlers/freefire.js"></script>
+  <script src="formhandlers/artexb.js"></script>
+  <script src="formhandlers/contentcreation.js"></script>
+  <script src="formhandlers/tressure.js"></script>
+  <script src="formhandlers/quizclash.js"></script>
+  <script src="formhandlers/PaperPresentation.js"></script>
+  <script src="formhandlers/videospeed.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/infinit2k25.PNG" alt="INFINIT 2K25" class="navbar-logo">
+      </a>
+      <div class="ms-auto">
+        <a class="nav-link btn rounded-pill" href="#technical">Register</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="events" class="events-section">
+    <div class="landing-section">
+      <video id="myVideo" src="imgs/infinit-bg-video.mp4" autoplay loop muted></video>
+      <script>
+        const video = document.getElementById("myVideo");
+        video.addEventListener("contextmenu", (e) => e.preventDefault());
+      </script>
+      <h1> <br><br> The Ultimate Tech Fest, Culminating on March 12, 2025!</h1>
+      <p>
+        The <strong style="color:#ea1179;">Department of Information Technology</strong> at
+        <strong style="color:#ea1179;">Sir C R Reddy College of Engineering</strong>, Eluru, presents a vibrant
+        blend of <span style="color:#ea1179;">Technical</span> and <span style="color:#ea1179;">Non-Technical</span>
+        events designed to inspire, engage, and challenge you. Whether you're a tech enthusiast or someone who loves
+        creativity
+        and fun,
+        <strong>INFINIT 2K25</strong> has something exciting waiting for you!
+      </p>
+      <p>
+        <strong style="color:#ff7a18;">Event Date: <span style="color:aqua;">March 12, 2025</span></strong><br>
+        <strong style="color:#ff7a18;">Registration Deadline: <span style="color:aqua;">March 10, 2025, at 10:00
+            PM</span></strong>
+      </p>
+      <p>
+        Don't miss the chance to be a part of this amazing fest! Join us in this one-of-a-kind celebration of
+        innovation,
+        learning, and fun.
+      </p>
+    </div>
+  </section>
+  <section id="countdown-section" class="container py-5 text-center">
+    <h2 class="mb-5" style="color:white;">Countdown to INFINIT 2K25</h2>
+    <div id="countdown-timer" class="timer-box">
+      <div class="countdown-element">
+        <span id="days" class="timer-number">00</span>
+        <div class="time-label">Days</div>
+      </div>
+      <div class="countdown-element">
+        <span id="hours" class="timer-number">00</span>
+        <div class="time-label">Hours</div>
+      </div>
+      <div class="countdown-element">
+        <span id="minutes" class="timer-number">00</span>
+        <div class="time-label">Minutes</div>
+      </div>
+      <div class="countdown-element">
+        <span id="seconds" class="timer-number">00</span>
+        <div class="time-label">Seconds</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="technical" class="container py-5">
+    <h2 class="text-center mb-5">Technical Events</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/codeathon.png" alt="Code-A-Thon" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Code-A-Thon</h5>
+            <p>A 3-hour intensive hackathon to build a solution for a real-world problem!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#codeathonDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#codeathonModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/quizclash.png" alt="Quiz Clash" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Quiz Clash</h5>
+            <p>A thrilling battle of minds to test your knowledge and win the ultimate challenge!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#quizClashDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quizclashModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/paper.png" alt="Paper-Presentation" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Paper Presentation</h5>
+            <p>Showcase your innovative ideas through a professional paper presentation format!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#paperPresentationDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PaperPresentationModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/techxpo.png" alt="TechXpo" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">TechXpo</h5>
+            <p>Showcase your innovative projects and ideas at this technical expo!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#techxpoDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#techxpoModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/codeclash.png" alt="CodeClash" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Code Craft</h5>
+            <p>A problem-solving contest to craft efficient code and pass all test cases!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#codecraftDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#codeclashModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="non-technical" class="container py-5">
+    <h2 class="text-center mb-5">Non-Technical Events</h2>
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/freefire.png" alt="Free Fire" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Free Fire</h5>
+            <p>Gear up, and battle it out for Booyah in this thrilling gaming showdown!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#freefireDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#freefireModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/bgmi.png" alt="BGMI" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">BGMI</h5>
+            <p>Dive into intense battles and claim your ultimate Chicken Dinner!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#bgmiDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bgmiModal">Register Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/treasurehunt.png" alt="Treasure Hunt" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Treasure Hunt</h5>
+            <p>Decode clues, and embark on an adventure to find the hidden prize!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#treasurehuntDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#treasurehuntModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/contentcreation.png" alt="Content Creation" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Content Creation</h5>
+            <p>Unleash your creativity and craft captivating content that stands out!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#contentcreationDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contentcreationModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/artexhibition.png" alt="Art Exhibition" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Art Exhibition</h5>
+            <p>Deliver stunning artworks and celebrate creativity in every form!</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button class="btn btn-secondary me-2" data-bs-toggle="modal"
+                data-bs-target="#artexhibitionDetailsModal">Details</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#artexhibitionModal">Register
+                Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="stalls" class="container py-5">
+    <h2 class="text-center mb-5">Stalls and Fanatics</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/foodstall.png" alt="Food Stalls" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Food Stalls</h5>
+            <p>Delicious dishes and snacks to savor!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/gamingstall.png" alt="Gaming Stalls" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Gaming Stalls</h5>
+            <p>Exciting games and fun for all!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="event-card">
+          <img src="imgs/flashmob.png" alt="Flash Mob" class="event-image">
+          <div class="event-card-body">
+            <h5 class="event-title">Flash Mob</h5>
+            <p>A surprise dance you can't miss!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="leadership" class="container py-5">
+    <h2 class="text-center mb-5">Our Leadership</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="event-card">
+          <div class="event-card-body text-center">
+            <h5 class="event-title">Principal</h5>
+            <p><b>Dr. K. Venkateswara Rao M.Tech., Ph.D</b></p>
+            <p>Sir C. R. R College of Engineering</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="event-card">
+          <div class="event-card-body text-center">
+            <h5 class="event-title">HOD, Department of IT</h5>
+            <p><b>Dr K. Satyanarayana M.E, Ph.D</b></p>
+            <p>Professor, HOD, Dept of IT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="coordinators" class="container py-5">
+    <h2 class="text-center mb-5">Event Coordinators</h2>
+    <div class="row">
+
+
+      <div class="col-md-6">
+        <div class="event-card">
+          <div class="event-card-body text-center">
+            <h5 class="event-title">Staff Coordinators</h5>
+            <div class="coordinator-list">
+              <div class="coordinator">
+                <span class="name">Sri. P Ramaiah Chowdary</span>
+                <span class="contact">+91 9948070301</span>
+              </div>
+              <div class="coordinator">
+                <span class="name">Sri. G Vihari</span>
+                <span class="contact">+91 9052190600</span>
+              </div>
+              <div class="coordinator">
+                <span class="name">Sri. Y S Koteaswara Rao</span>
+                <span class="contact">+91 9959951957</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="event-card">
+          <div class="event-card-body text-center">
+            <h5 class="event-title">Student Coordinators</h5>
+            <div class="coordinator-list">
+              <div class="coordinator">
+                <span class="name">M. Trinadh</span>
+                <span class="contact">+91 6305228944</span>
+              </div>
+              <div class="coordinator">
+                <span class="name">I. Chakradhar</span>
+                <span class="contact">+91 8096491896</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <p class="designed-by">
+    This Website is Designed & Developed By
+    <span class="highlight-name">Karthik Devini</span>
+  </p>
+
+  </section>
+
+  <div class="modal fade" id="codeathonRegisterModal" tabindex="-1" aria-labelledby="codeathonRegisterModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="codeathonRegisterModalLabel">Register for Code-A-Thon</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Registration form content.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="codeathonDetailsModal" tabindex="-1" aria-labelledby="codeathonDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="codeathonDetailsModalLabel">Code-A-Thon Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> A 3-hour hackathon to solve a real-world problem using your coding
+            skills.</p>
+          <p><strong>Participation Type: </strong>Team (4 members)</p>
+          <p><strong>Registration Fee:</strong> ₹400</p>
+          <p><strong>Coordinator: </strong>Yeluri Jaya phanindra</p>
+          <p><strong>Contact: </strong>+91 7093761261</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>Each team can have up to 4 members.</li>
+            <li>Solutions must be presented at the end of the hackathon.</li>
+            <li>All code must be written during the event.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Innovativeness of the solution.</li>
+            <li>Practicality and feasibility.</li>
+            <li>Presentation skills.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quizClashDetailsModal" tabindex="-1" aria-labelledby="quizClashDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="quizClashDetailsModalLabel">Quiz Clash Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> A thrilling battle of minds to test your knowledge across various
+            domains
+            and win the ultimate challenge!</p>
+          <p><strong>Participation Type:</strong> Team (4 members)</p>
+          <p><strong>Registration Fee:</strong> ₹400</p>
+          <p><strong>Coordinator:</strong> V. Manikanta</p>
+          <p><strong>Contact:</strong> +91 7396444654</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>Each team can have up to 4 members.</li>
+            <li>Quiz questions will be from general knowledge, technology, and current affairs.</li>
+            <li>Electronic gadgets are not allowed during the event.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Total score in all quiz rounds.</li>
+            <li>Speed and accuracy of answers.</li>
+            <li>Team collaboration in tie-breaker rounds.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="paperPresentationDetailsModal" tabindex="-1"
+    aria-labelledby="paperPresentationDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="paperPresentationDetailsModalLabel">Paper Presentation Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> Showcase your research and innovative ideas through a professional
+            paper
+            presentation format.</p>
+          <p><strong>Participation Type: </strong>Team (3 members)</p>
+          <p><strong>Registration Fee:</strong> ₹300</p>
+          <p><strong>Coordinator: </strong>Y. Pavan</p>
+          <p><strong>Contact: </strong>+91 8639366166</p>
+          <ul>
+            <li>The team can have up to 3 members.</li>
+            <li>The paper should follow a standard IEEE format.</li>
+            <li>The presentation duration is 10 minutes, followed by a 5-minute Q&A session.</li>
+            <li>Plagiarism in the paper will lead to disqualification.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Originality of the research/work.</li>
+            <li>Clarity of presentation and communication.</li>
+            <li>Depth of knowledge and handling of Q&A.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="techxpoDetailsModal" tabindex="-1" aria-labelledby="techxpoDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="techxpoDetailsModalLabel">TechXpo Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> Showcase your innovative projects and groundbreaking ideas at this
+            exciting technical expo!</p>
+          <p><strong>Participation Type:</strong> Team (3 members)</p>
+          <p><strong>Registration Fee:</strong> ₹300</p>
+          <p><strong>Coordinator:</strong> B. Dileep Kumar</p>
+          <p><strong>Contact:</strong> +91 9542167927</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>The team can consist of up to 3 members.</li>
+            <li>Projects must be innovative and technically sound.</li>
+            <li>A detailed project report is required at the time of presentation.</li>
+            <li>All necessary equipment and materials must be arranged by the participants.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Innovation and originality of the project.</li>
+            <li>Technical feasibility and presentation quality.</li>
+            <li>Impact and potential applications of the project.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="codecraftDetailsModal" tabindex="-1" aria-labelledby="codecraftDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="codecraftDetailsModalLabel">Code Craft Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> A problem-solving contest where participants craft efficient code to
+            solve challenges and pass all test cases.</p>
+          <p><strong>Participation Type:</strong> Individual (1 member)</p>
+          <p><strong>Registration Fee:</strong> ₹100</p>
+          <p><strong>Coordinator:</strong> E. Mokshitha</p>
+          <p><strong>Contact:</strong> +91 9347226139</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>This is an individual event; only one participant per registration.</li>
+            <li>Participants will receive problem statements at the start of the contest.</li>
+            <li>All code must be written within the contest time frame.</li>
+            <li>The use of pre-written libraries and frameworks is permitted, but plagiarism is strictly prohibited.
+            </li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Efficiency and correctness of the solution.</li>
+            <li>Optimization and execution time.</li>
+            <li>Passing all test cases provided during the contest.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="freefireDetailsModal" tabindex="-1" aria-labelledby="freefireDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="freefireDetailsModalLabel">Free Fire Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> Gear up for an action-packed gaming showdown. Team up and battle for
+            Booyah in this thrilling Free Fire event!</p>
+          <p><strong>Participation Type:</strong> Team (4 members)</p>
+          <p><strong>Registration Fee:</strong> ₹200</p>
+          <p><strong>Coordinator:</strong> M. Ramanjaneyulu</p>
+          <p><strong>Contact:</strong> +91 9381572120</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>Each team must consist of exactly 4 members.</li>
+            <li>All matches will be played in a custom room, and rules will be shared before the event begins.</li>
+            <li>Cheating or hacking will lead to immediate disqualification.</li>
+            <li>Players must use their own devices.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Overall team performance in the matches.</li>
+            <li>Team strategy and collaboration.</li>
+            <li>Final position in the event standings.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="bgmiDetailsModal" tabindex="-1" aria-labelledby="bgmiDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bgmiDetailsModalLabel">BGMI Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> Dive into intense battles and showcase your strategic skills to claim
+            the
+            ultimate Chicken Dinner!</p>
+          <p><strong>Participation Type:</strong> Team (4 members)</p>
+          <p><strong>Registration Fee:</strong> ₹200</p>
+          <p><strong>Coordinator:</strong> M. Ramanjaneyulu</p>
+          <p><strong>Contact:</strong> +91 9381572120</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>Each team must consist of exactly 4 players.</li>
+            <li>All matches will be conducted in custom rooms.</li>
+            <li>Players must use their own devices and accounts.</li>
+            <li>No use of emulators or external cheats is allowed.</li>
+            <li>Teams must adhere to the match schedules strictly.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Total points scored during the event matches.</li>
+            <li>Number of eliminations per match.</li>
+            <li>Final team ranking in the leaderboard.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="treasurehuntDetailsModal" tabindex="-1" aria-labelledby="treasurehuntDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="treasurehuntDetailsModalLabel">Treasure Hunt Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> Decode clues, and embark on an exciting adventure to uncover the hidden
+            treasure!</p>
+          <p><strong>Participation Type:</strong> Team (4 members)</p>
+          <p><strong>Registration Fee:</strong> ₹200</p>
+          <p><strong>Coordinator:</strong> B Teja Sri</p>
+          <p><strong>Contact:</strong> +91 9392511474</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>Each team must consist of 4 members.</li>
+            <li>All clues must be decoded within the given time limit.</li>
+            <li>Teams must stay together during the hunt.</li>
+            <li>Any form of cheating or use of external help will result in disqualification.</li>
+            <li>The decision of the event coordinators is final.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Completion time of the treasure hunt.</li>
+            <li>Accuracy in solving clues.</li>
+            <li>Team coordination and adherence to rules.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="contentcreationDetailsModal" tabindex="-1"
+    aria-labelledby="contentcreationDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contentcreationDetailsModalLabel">Content Creation Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> Unleash your creativity and craft captivating content that stands out!
+          </p>
+          <p><strong>Participation Type:</strong> Individual (1 member)</p>
+          <p><strong>Registration Fee:</strong> ₹100</p>
+          <p><strong>Coordinator:</strong> V. Deekshitha</p>
+          <p><strong>Contact:</strong> +91 9121183685</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>The content must be original and plagiarism-free.</li>
+            <li>Participants can create content in the form of articles, blogs, or videos.</li>
+            <li>The time limit for submission will be specified during the event.</li>
+            <li>Use of inappropriate or offensive language will lead to disqualification.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Creativity and originality.</li>
+            <li>Quality of content and presentation.</li>
+            <li>Relevance to the given theme or topic.</li>
+            <li>Impact and engagement potential.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="artexhibitionDetailsModal" tabindex="-1" aria-labelledby="artexhibitionDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="artexhibitionDetailsModalLabel">Art Exhibition Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Event Description:</strong> Deliver stunning artworks and celebrate creativity in every form!</p>
+          <p><strong>Participation Type:</strong> Individual (1 member)</p>
+          <p><strong>Registration Fee:</strong> ₹100</p>
+          <p><strong>Coordinator:</strong> S. Varshitha Rekha</p>
+          <p><strong>Contact:</strong> +91 9441702052</p>
+          <p><strong>Rules:</strong></p>
+          <ul>
+            <li>Participants must submit original artwork; plagiarism is strictly prohibited.</li>
+            <li>Art can be in any medium: painting, sketching, digital art, or mixed media.</li>
+            <li>Each participant can submit only one entry.</li>
+            <li>Artworks should align with the theme provided during registration.</li>
+            <li>Offensive or inappropriate content will lead to disqualification.</li>
+          </ul>
+          <p><strong>Judging Criteria:</strong></p>
+          <ul>
+            <li>Creativity and originality.</li>
+            <li>Skill and technique.</li>
+            <li>Relevance to the theme.</li>
+            <li>Overall visual impact and presentation.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="formhandlers/countdown.js"></script>
+
+
+
+
+
+  <div class="modal fade" id="contentcreationModal" tabindex="-1" aria-labelledby="contentcreationModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contentcreationModalLabel">Content-Creation Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="contentcreationForm">
+
+            <div class="form-group">
+              <label for="participant1">Participant Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹100">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="contentcreationSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="artexhibitionModal" tabindex="-1" aria-labelledby="artexhibitionModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="artexhibitionModalLabel">Art-Exhibition Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="artexhibitionForm">
+
+            <div class="form-group">
+              <label for="participant1">Participant Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹100">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="artexhibitionSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="codeathonModal" tabindex="-1" aria-labelledby="codeathonModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="codeathonModalLabel">Code-A-Thon Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="codeathonForm">
+            <div class="form-group">
+              <label for="teamName">Team Name</label>
+              <input type="text" id="teamName" name="entry.445244870" class="form-control" placeholder="Enter team name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="participant1">Participant 1 Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant2">Participant 2 Name</label>
+              <input type="text" id="participant2" name="entry.467385821" class="form-control"
+                placeholder="Enter participant 2 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant3">Participant 3 Name</label>
+              <input type="text" id="participant3" name="entry.1123334951" class="form-control"
+                placeholder="Enter participant 3 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant4">Participant 4 Name</label>
+              <input type="text" id="participant4" name="entry.161086925" class="form-control"
+                placeholder="Enter participant 4 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹400">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="codeathonSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="quizclashModal" tabindex="-1" aria-labelledby="quizclashModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="quizclashModalLabel">Quiz-Clash Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="quizclashForm">
+            <div class="form-group">
+              <label for="teamName">Team Name</label>
+              <input type="text" id="teamName" name="entry.445244870" class="form-control" placeholder="Enter team name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="participant1">Participant 1 Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant2">Participant 2 Name</label>
+              <input type="text" id="participant2" name="entry.467385821" class="form-control"
+                placeholder="Enter participant 2 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant3">Participant 3 Name</label>
+              <input type="text" id="participant3" name="entry.1123334951" class="form-control"
+                placeholder="Enter participant 3 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant4">Participant 4 Name</label>
+              <input type="text" id="participant4" name="entry.161086925" class="form-control"
+                placeholder="Enter participant 4 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹400">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="quizclashSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="techxpoModal" tabindex="-1" aria-labelledby="techxpoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="techxpoModalLabel">TechXpo Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="techxpoForm">
+            <div class="form-group">
+              <label for="teamName">Team Name</label>
+              <input type="text" id="teamName" name="entry.445244870" class="form-control" placeholder="Enter team name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="participant1">Participant 1 Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant2">Participant 2 Name</label>
+              <input type="text" id="participant2" name="entry.467385821" class="form-control"
+                placeholder="Enter participant 2 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant3">Participant 3 Name</label>
+              <input type="text" id="participant3" name="entry.1123334951" class="form-control"
+                placeholder="Enter participant 3 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹300">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="techxpoSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="PaperPresentationModal" tabindex="-1" aria-labelledby="PaperPresentationModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="PaperPresentationModalLabel">Paper-Presentation Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="PaperPresentationForm">
+            <div class="form-group">
+              <label for="teamName">Team Name</label>
+              <input type="text" id="teamName" name="entry.445244870" class="form-control" placeholder="Enter team name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="participant1">Participant 1 Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant2">Participant 2 Name</label>
+              <input type="text" id="participant2" name="entry.467385821" class="form-control"
+                placeholder="Enter participant 2 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant3">Participant 3 Name</label>
+              <input type="text" id="participant3" name="entry.1123334951" class="form-control"
+                placeholder="Enter participant 3 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹300">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="PaperPresentationSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="codeclashModal" tabindex="-1" aria-labelledby="codeclashModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="codeclashModalLabel">Code-A-Thon Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="codeclashForm">
+
+            <div class="form-group">
+              <label for="participant1">Participant Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹100">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="codeclashSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="freefireModal" tabindex="-1" aria-labelledby="freefireModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="freefireModalLabel">Free-Fire Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="freefireForm">
+            <div class="form-group">
+              <label for="teamName">Team Name</label>
+              <input type="text" id="teamName" name="entry.445244870" class="form-control" placeholder="Enter team name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="participant1">Participant 1 Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant2">Participant 2 Name</label>
+              <input type="text" id="participant2" name="entry.467385821" class="form-control"
+                placeholder="Enter participant 2 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant3">Participant 3 Name</label>
+              <input type="text" id="participant3" name="entry.1123334951" class="form-control"
+                placeholder="Enter participant 3 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant4">Participant 4 Name</label>
+              <input type="text" id="participant4" name="entry.161086925" class="form-control"
+                placeholder="Enter participant 4 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹200">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="freefireSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="bgmiModal" tabindex="-1" aria-labelledby="bgmiModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bgmiModalLabel">BGMI Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="bgmiForm">
+            <div class="form-group">
+              <label for="teamName">Team Name</label>
+              <input type="text" id="teamName" name="entry.445244870" class="form-control" placeholder="Enter team name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="participant1">Participant 1 Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant2">Participant 2 Name</label>
+              <input type="text" id="participant2" name="entry.467385821" class="form-control"
+                placeholder="Enter participant 2 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant3">Participant 3 Name</label>
+              <input type="text" id="participant3" name="entry.1123334951" class="form-control"
+                placeholder="Enter participant 3 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant4">Participant 4 Name</label>
+              <input type="text" id="participant4" name="entry.161086925" class="form-control"
+                placeholder="Enter participant 4 name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹200">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="bgmiSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="treasurehuntModal" tabindex="-1" aria-labelledby="treasurehuntModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="treasurehuntModalLabel">Treasure-Hunt Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="treasurehuntForm">
+            <div class="form-group">
+              <label for="teamName">Team Name</label>
+              <input type="text" id="teamName" name="entry.445244870" class="form-control" placeholder="Enter team name"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="participant1">Participant 1 Name</label>
+              <input type="text" id="participant1" name="entry.1454963289" class="form-control"
+                placeholder="Enter participant 1 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant2">Participant 2 Name</label>
+              <input type="text" id="participant2" name="entry.467385821" class="form-control"
+                placeholder="Enter participant 2 name" required>
+            </div>
+            <div class="form-group">
+              <label for="participant3">Participant 3 Name</label>
+              <input type="text" id="participant3" name="entry.1123334951" class="form-control"
+                placeholder="Enter participant 3 name">
+            </div>
+            <div class="form-group">
+              <label for="participant4">Participant 4 Name</label>
+              <input type="text" id="participant4" name="entry.161086925" class="form-control"
+                placeholder="Enter participant 4 name">
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="tel" id="mobile" name="entry.79168772" class="form-control" placeholder="Enter mobile number"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" id="email" name="entry.1756606066" class="form-control" placeholder="Enter email ID"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="college">College Name</label>
+              <input type="text" id="college" name="entry.2022838792" class="form-control"
+                placeholder="Enter college name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="entry.1606646696" class="form-control" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="IT">Information Technology (IT)</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+                <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+                <option value="MECH">Mechanical Engineering (MECH)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="registrationFee">Registration Fee</label>
+              <input type="text" id="registrationFee" name="entry.1203915631" class="form-control" readonly
+                value="₹200">
+            </div>
+
+            <p>Scan the QR code below to make your payment:</p>
+            <img src="imgs/qrcode.png" alt="QR Code for Payment"
+              style="width: 150px; height: auto; display: block; margin: 0 auto 20px;">
+
+            <div class="form-group">
+              <label for="utr">UTR Number</label>
+              <input type="text" id="utr" name="entry.1677302431" class="form-control" placeholder="Enter UTR number"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit Registration</button>
+          </form>
+
+          <div class="alert alert-success" id="treasurehuntSuccessMessage" style="display: none;">
+            Registration successfully done!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

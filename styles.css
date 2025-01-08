@@ -145,6 +145,7 @@ nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   overflow: hidden;
+  min-height: 600px;
 }
 
 .event-image {
@@ -162,6 +163,16 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
   color: #ea1179;
+}
+
+#coordinators .event-card {
+  min-height: 150px;
+  /* Adjust this value as needed */
+}
+
+#leadership .event-card {
+  min-height: 135px;
+  /* Adjust this value as needed */
 }
 
 .btn-primary {

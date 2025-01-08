@@ -165,14 +165,15 @@ nav {
   color: #ea1179;
 }
 
+
 #coordinators .event-card {
   min-height: 150px;
-  /* Adjust this value as needed */
+  padding: 0%;
+  ;
 }
 
 #leadership .event-card {
   min-height: 135px;
-  /* Adjust this value as needed */
 }
 
 .btn-primary {

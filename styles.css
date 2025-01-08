@@ -169,7 +169,7 @@ nav {
 #coordinators .event-card {
   min-height: 150px;
   padding: 0%;
-  ;
+  font-size: 0.875rem;
 }
 
 #leadership .event-card {

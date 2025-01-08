@@ -145,7 +145,7 @@ nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   overflow: hidden;
-  min-height: 600px;
+  min-height: 400px;
 }
 
 .event-image {

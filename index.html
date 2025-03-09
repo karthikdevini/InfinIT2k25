@@ -31,6 +31,11 @@
       <div class="ms-auto">
         <a class="nav-link btn rounded-pill" href="#technical">Register</a>
       </div>
+      <div class="d-flex justify-content-start">
+        <a class="nav-link btn rounded-pill" href="#coordinators">Accommodation</a>
+    </div>
+    
+      
     </div>
   </nav>
 
@@ -53,8 +58,9 @@
       </p>
       <p>
         <strong style="color:#ff7a18;">Event Date: <span style="color:aqua;">March 12, 2025</span></strong><br>
-        <strong style="color:#ff7a18;">Registration Deadline: <span style="color:aqua;">March 8, 2025, at 10:00
-            PM</span></strong>
+        <strong style="color:#ff7a18;">Registration Deadline: <span style="color:aqua;">March 12, 2025, at 10:00
+            AM</span></strong><br>
+        <strong style="color:#ff7a18;">Spot Registrations are Accepted<span style="color:aqua;"></span></strong>
       </p>
       <p>
         Don't miss the chance to be a part of this amazing fest! Join us in this one-of-a-kind celebration of
@@ -304,10 +310,15 @@
     </div>
   </section>
 
-  <section id="stalls" class="container py-5">
+  <section id="Accommodation" class="container py-5">
     <h2 class="text-center mb-5">Accommodation</h2>
-    <p class="text-center">Accommodation will be provided from the afternoon of the 11th up to the morning of the 13th. The cost is 250 rupees per person, including food.</p>
-    <p class="text-center">For more queries, please contact <a href="#coordinators">"coordinators"</a></p>
+    <p class="text-center">
+        Accommodation will be provided from the afternoon of the 11th up to the morning of the 13th. The cost is 250 rupees per person, including food.
+    </p>
+    <p class="text-center">
+        For more queries, please contact 
+        <span id="coordinator-link" style="cursor: pointer;">coordinators</span>
+    </p>
   </section>
 
 
@@ -339,58 +350,57 @@
   <section id="coordinators" class="container py-5">
     <h2 class="text-center mb-5">Event Coordinators</h2>
     <div class="row">
-
-
-      <div class="col-md-12">
-        <div class="event-card">
-          <div class="event-card-body text-center">
-            <h5 class="event-title">Faculty Coordinators</h5>
-            <div class="coordinator-list">
-              <div class="coordinator">
-                <span class="name">Sri. P. Ramaiah Chowdary</span>
-                <span class="contact">+91 9948070301</span>
-              </div>
-              <div class="coordinator">
-                <span class="name">Sri. G. Vihari</span>
-                <span class="contact">+91 9052190600</span>
-              </div>
-              <div class="coordinator">
-                <span class="name">Sri. Y. Siva Koteswara Rao</span>
-                <span class="contact">+91 9959951957</span>
-              </div>
+        <div class="col-md-12">
+            <div class="event-card">
+                <div class="event-card-body text-center">
+                    <h5 class="event-title">Faculty Coordinators</h5>
+                    <div class="coordinator-list">
+                        <div class="coordinator">
+                            <span class="name">Sri. P. Ramaiah Chowdary</span>
+                            <span class="contact">+91 9948070301</span>
+                        </div>
+                        <div class="coordinator">
+                            <span class="name">Sri. G. Vihari</span>
+                            <span class="contact">+91 9052190600</span>
+                        </div>
+                        <div class="coordinator">
+                            <span class="name">Sri. Y. Siva Koteswara Rao</span>
+                            <span class="contact">+91 9959951957</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="col-md-12">
-        <div class="event-card">
-          <div class="event-card-body text-center">
-            <h5 class="event-title">Student Coordinators</h5>
-            <div class="coordinator-list">
-              <div class="coordinator">
-                <span class="name">M. Trinadh</span>
-                <span class="contact">+91 6305228944</span>
-              </div>
-              <div class="coordinator">
-                <span class="name">I. Chakradhar</span>
-                <span class="contact">+91 8096491896</span>
-              </div>
-              <div class="coordinator">
-                <span class="name">V. Manikanta</span>
-                <span class="contact">+91 7396444654</span>
-              </div>
+        <div class="col-md-12">
+            <div class="event-card">
+                <div class="event-card-body text-center">
+                    <h5 class="event-title">Student Coordinators</h5>
+                    <div class="coordinator-list">
+                        <div class="coordinator">
+                            <span class="name">M. Trinadh</span>
+                            <span class="contact">+91 6305228944</span>
+                        </div>
+                        <div class="coordinator">
+                            <span class="name">I. Chakradhar</span>
+                            <span class="contact">+91 8096491896</span>
+                        </div>
+                        <div class="coordinator">
+                            <span class="name">V. Manikanta</span>
+                            <span class="contact">+91 7396444654</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
-  <p class="designed-by">
-    This Website is Designed & Developed By
-    <span class="highlight-name">Karthik Devini</span>
-  </p>
+</section>
 
-  </section>
+<script>
+    document.getElementById("coordinator-link").addEventListener("click", function() {
+        document.getElementById("coordinators").scrollIntoView({ behavior: "smooth" });
+    });
+</script>
+
 
   <div class="modal fade" id="codeathonRegisterModal" tabindex="-1" aria-labelledby="codeathonRegisterModalLabel"
     aria-hidden="true">
@@ -423,8 +433,8 @@
             skills.</p>
           <p><strong>Participation Type: </strong>Team (4 members)</p>
           <p><strong>Registration Fee:</strong> ₹400</p>
-          <p><strong>Coordinator 1: </strong>Y. Jaya phanindra</p>
-          <p><strong>Contact: </strong>+91 7093761261</p>
+          <p><strong>Coordinator 1: </strong>T. Vivek</p>
+          <p><strong>Contact: </strong>+91 9014216735</p>
           <p><strong>Coordinator 2: </strong>B. Prasanna</p>
           <p><strong>Contact: </strong>+91 9398531158</p>
           <p><strong>Rules:</strong></p>
@@ -493,9 +503,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p><strong>Event Description:</strong> Showcase your research and innovative ideas through a professional
-            paper
-            presentation format.</p>
+          <p><strong>Event Description:</strong>Present your research and ideas in a formal paper presentation platform.</p>
           <p><strong>Participation Type: </strong>Team (3 members)</p>
           <p><strong>Registration Fee:</strong> ₹300</p>
           <p><strong>Coordinator 1: </strong>Y. Pavan Kumar Reddy</p>
@@ -504,9 +512,7 @@
           <p><strong>Contact: </strong>+91 9346812355</p>
           <ul>
             <li>The team can have up to 3 members.</li>
-            <li>The paper should follow a standard IEEE format.</li>
             <li>The presentation duration is 10 minutes, followed by a 5-minute Q&A session.</li>
-            <li>Plagiarism in the paper will lead to disqualification.</li>
           </ul>
           <p><strong>Judging Criteria:</strong></p>
           <ul>
@@ -723,8 +729,8 @@
           </p>
           <p><strong>Participation Type:</strong> Individual (1 member)</p>
           <p><strong>Registration Fee:</strong> ₹50</p>
-          <p><strong>Coordinator 1:</strong> V. Deekshitha</p>
-          <p><strong>Contact:</strong> +91 9121183685</p>
+          <p><strong>Coordinator 1:</strong> S. Sunitha</p>
+          <p><strong>Contact:</strong> +91 8367252188</p>
           <p><strong>Coordinator 2: </strong>M. Karthikeya</p>
           <p><strong>Contact: </strong>+91 7075336013</p>
           <p><strong>Rules:</strong></p>
@@ -762,8 +768,8 @@
           <p><strong>Registration Fee:</strong> ₹50</p>
           <p><strong>Coordinator 1:</strong> S. Varshitha Rekha</p>
           <p><strong>Contact:</strong> +91 9441702052</p>
-          <p><strong>Coordinator 2: </strong>N. Sri Manohar Reddy</p>
-          <p><strong>Contact: </strong>+91 9390313408</p>
+          <p><strong>Coordinator 2: </strong>G. Srija</p>
+          <p><strong>Contact: </strong>+91 8790887524</p>
           <p><strong>Rules:</strong></p>
           <ul>
             <li>Participants must draw or paint or sketch in the presence of judges.</li>
@@ -1621,16 +1627,28 @@
       <div class="social-links">
           <span>Follow us on</span>
           <a href="https://www.instagram.com/crr_infinit2k25?igsh=OGNwenRtZ3U1MjNo" target="_blank">
-              <img  style="border-radius: 50%;"  src="./imgs/insta logo.jpeg" alt="Instagram">
+              <img style="border-radius: 50%;" src="./imgs/insta logo.jpeg" alt="Instagram">
           </a>
           <span>Mail us on</span>
           <a href="mailto:infinit2k25@gmail.com">
-                          <img style="border-radius: 50%;" src="./imgs//gmail logo.png" alt="Mail">
+              <img style="border-radius: 50%;" src="./imgs/gmail logo.png" alt="Mail">
           </a>
       </div>
       <a href="https://wa.me/917396444654" class="btn-a link-a" target="_blank">Connect With Us</a>
   </div>
 </div>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <p class="designed-by">
+      This Website is Designed & Developed By 
+      <span class="highlight-name">Karthik Devini</span>
+  </p>
+</footer>
+
+</body>
+</html>
+
 
 </body>
 

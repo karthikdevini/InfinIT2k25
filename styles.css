@@ -50,6 +50,13 @@ body {
   width: 100%;
 }
 
+.register-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
 .landing-section video,
 .landing-section:before {
   height: 100%;
